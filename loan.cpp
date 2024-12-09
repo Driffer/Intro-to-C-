@@ -8,7 +8,7 @@ struct Customer {
     int monthsAsCustomer;
 };
 
-bool yourNameLoanCalculator(Customer customer) {
+bool kelvinLoanCalculator(Customer customer) {
     return customer.age > 22 &&
            customer.bankBalance > 50000 &&
            customer.crbStatus == "good" &&
